@@ -1,0 +1,351 @@
+body{
+    
+    width: 100%;
+    height: client-height;
+    overflow-y: hidden; 
+    
+}
+html{
+   
+    width: 100%;
+    height: 890;
+    overflow: hidden;
+
+}
+.sidebar{
+    position: absolute;
+    width: 224px;
+    height: 960px;
+    left: 0px;
+    top: 0px;
+    background: #030303;
+}
+.sidebar_top .tittle p{
+    position: relative;
+    top: 10;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color:lightgrey ;
+}
+.component{
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: lightgrey;
+    cursor: pointer;
+    
+}
+.component i{
+position: absolute;
+width: 30px;
+height: 18px;
+left: 0px;
+top: 7px;
+font-size: 20px;
+}
+.component p{   
+position: absolute;
+top: -6;
+width: 160px;
+height: 18px;
+left: 38px;
+font-family: Circular Std;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* White */
+
+color: lightgrey;
+}
+.component:hover{
+    color: white;
+    font-weight: bolder;
+}
+.component:hover p{
+    font-weight: bold;
+}
+.logo{
+    height: 100;
+    position: relative;
+    color: white;
+}
+.logo i{
+    position: absolute;
+    font-size: 44px;
+    top:25px;
+    left: 24px;
+}
+.logo p{
+    position: absolute;
+    font-size: 30px;
+    top:0px;
+    left: 64px;
+    font-family: Circular Std;
+}
+.sidebar_top{
+    position: relative;
+    left:26px ;
+    width: 100%;
+    
+}
+.sidebar_center{
+    position: relative;
+    width: 172px;
+    left:26px ;
+    border-bottom: 1px solid grey;
+}
+.sidebar_bottom{
+    display: inline-block;
+    position: relative;
+    color: lightgrey;
+    top: 500;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 224;
+    height: 60;
+    background-color: black;
+    width: 1700;
+}
+.button{
+    position: relative;
+    top: 10px;
+    
+    width: 100;
+    height: 40;
+    left: 32;
+}
+.button i{
+    position: relative;
+    font-size: 30;
+    color: lightgrey;
+    font-weight: 100;
+    top: 3px;
+    padding-right: 30;
+    cursor: pointer;
+}
+.button i:hover{
+    font-size:32 ;
+    color: white;
+}
+.input1{
+    position: relative;
+    left: 130;
+    width: 350;
+    height: 40;
+    top: -30;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+}
+.header input{
+    position: absolute;
+    left: 170;
+    width: 290;
+    top: 21;
+    height: 20;
+    border: none;
+    background-color:white;
+    color: grey;
+}
+#search{
+    position: absolute;
+    left: 142;
+    color: black;
+    top: 17;
+    font-size: 25;
+    font-weight: 10;
+}
+.header input:hover,.header input:focus,.header input:active{
+    outline:none;
+    background: #ffffff;
+
+}
+.signin{
+    position: absolute;
+    left: 1400;
+    top: 5px;
+    width: 80px;
+    font-size: 14px;
+    color: white;
+   
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.signin:hover{
+    font-size: 15px;
+}
+.login{
+    position: absolute;
+    left: 1500;
+    top: 5px;
+    width: 170px;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.login:hover{
+    font-size: 15px;
+    width: 173;
+    
+}
+.content{
+    overflow: scroll;
+
+    position: absolute;
+    top: 60;
+    
+    width: 1700px;
+    left: 224;
+    bottom: 96px;
+    background-color: black;
+
+    overflow: auto;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+.box ul::-webkit-scrollbar { 
+  width: 0 !important;
+  display: none; 
+}
+.playlist{
+    position: relative;
+    width: 203px;
+    height: 273px;
+    display: inline-block;
+    
+    margin-right: 16px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+.playlist img{
+    background-size:cover ;
+    position: absolute;
+    height: 171px;
+    left: 16px;
+    top: 16px;
+    filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.6));
+}
+.playlist .p1{
+    position: absolute;
+    width: 171px;
+    height: 18px;
+    left: 16px;
+    top: 190px;
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+.playlist .play1{
+    visibility: hidden;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 140px;
+    top: 140px;
+    font-size: 45;
+    color: #1db954;
+}
+.playlist .pause1{
+    visibility: hidden;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 140px;
+    top: 140px;
+    font-size: 45;
+    color: #1db954;
+}
+
+.playlist:hover .play1{
+    visibility: visible;
+}
+/* .playlist #play1:hover{
+    font-size: 48px;
+} */
+
+.playlist:hover{
+    background-color:	#252525;
+}
+.playlist .p2{
+    position: absolute;
+    height: 15px;
+    left: 16px;
+    right: 16px;
+    top: 235px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+
+    /* White */
+
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.chose{
+    position: relative;
+    margin-top:70px ;
+    height: 273px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+.content a{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    top: 30px;
+    font-family: Gotham;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+
+}
+.play_board{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0px;
+    width: 100%;
+    height: 96px;
+    background-color: #282828;
+    
+}
+.play{
+    position: relative;
+    margin-top: 15px;
+    text-align: center;
+}
+.play i{
+    padding-left: 25px;
+    font-size: 20px;
+}
+#playbtn{
+    position: relative;
+    font-size: 30px;
+    top: 2px;
+}
