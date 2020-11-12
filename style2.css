@@ -1,0 +1,46 @@
+body{
+    
+    width: 100%;
+    height: client-height;
+    overflow-y: hidden; 
+    display: block;
+    
+}
+html{
+   
+    width: 100%;
+    height: 890;
+    overflow: hidden;
+
+}
+.logo{
+    height: 100;
+    width: 100%;
+    position: relative;
+    color: black;
+}
+.logo i{
+    position: absolute;
+    font-size: 44px;
+    top:25px;
+    left: 42.5%;
+    
+}
+.logo p{
+    position: absolute;
+    font-size: 30px;
+    top:0px;
+    left: 45%;
+    font-family: Circular Std;
+    font-weight: bold;
+}
+.user_txt{
+    position: relative;
+    left: 45%;
+    top: 20px;
+}
+.pass_txt{
+    position: relative;
+    left: 45%;
+    top: 40px;
+}
