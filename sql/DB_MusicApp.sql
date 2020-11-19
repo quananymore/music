@@ -1,14 +1,14 @@
-USE  db_spotify;
+CREATE DATABASE db_musicApp; 
+USE
+    db_musicApp;
 CREATE TABLE Account(
     id_Acc INT UNIQUE NOT NULL AUTO_INCREMENT,
     NAME VARCHAR(50),
     username VARCHAR(50),
-    pass VARCHAR(1000),
+    pass VARCHAR(50),
     avatar_acc TEXT,
     PRIMARY KEY(id_Acc)
-);
-
-CREATE TABLE accActived(
+); CREATE TABLE accActived(
     id_Acc INT,
     dateVip DATETIME,
     exDate DATETIME,
