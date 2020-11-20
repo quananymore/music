@@ -7,6 +7,7 @@ CREATE TABLE Account(
     username VARCHAR(50),
     pass VARCHAR(50),
     avatar_acc TEXT,
+    role int,
     PRIMARY KEY(id_Acc)
 ); CREATE TABLE accActived(
     id_Acc INT,
